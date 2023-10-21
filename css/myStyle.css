@@ -345,10 +345,17 @@ button:hover {
   font-size: larger;
 }
 
-.icons img {
-  border-radius: 50%;
-  object-position: center;
-  height: 5vh;
+.icons {
+  display: flex;
+}
+
+.icons i {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.gg-square {
+  margin-top: 4px;
 }
 
 a {
