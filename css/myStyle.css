@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+/* https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.trekaroo.com%2Fmichigan-fall-foliage%2F&psig=AOvVaw3vREntuketFKvQsBW1WNqd&ust=1697931560993000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKiVy43mhYIDFQAAAAAdAAAAABAD */
+.section1 {
+  background-image: url("../img/MIchigan-Fall-Foliage.jpg");
+  background-size: 100vw 100vh;
+}
+
+.titlePage {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  color: aliceblue;
+  font-size: 100px;
+}
+
+.subhead {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  max-height: 100px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  transform: scale(120%);
+}
+
+.section2 {
+  background-image: url(../img/detroit-skyline.jpg);
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.question {
+  margin-top: 15vh;
+  font-size: 50px;
+  width: 42%;
+  margin-left: 5vw;
+}
+
+.articleContainer {
+  margin-top: 15vh;
+  width: 47%;
+  margin-right: 2vw;
+}
+
+.paragraph {
+  font-size: large;
+}
+
+.buttonContainer {
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 10%;
+  width: 120px;
+  height: 30px;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: rgb(213, 220, 226);
+  cursor: pointer;
+  transform: scale(105%);
+}
+
+.section3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/Tahquamenon_falls.jpg);
+  background-size: cover;
+  color: aliceblue;
+  display: inline-block;
+  text-align: center;
+}
+
+.titleSand {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 25px;
+  width: 50%;
+}
+
+.experienceMore {
+  justify-content: space-around;
+  margin-top: 30px;
+  display: flex;
+  height: 75%;
+}
+
+.experienceMore aside {
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template: "container";
+}
+
+.expImg .img {
+  object-position: -400px 0px;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  grid-area: container;
+}
+
+.expImg .arrowS {
+  position: relative;
+  z-index: 1;
+  margin-top: 65vh;
+  margin-left: 5px;
+  max-height: 90px;
+  grid-area: container;
+}
+
+.section4 {
+  background-image: url(../img/northernLights.webp);
+}
