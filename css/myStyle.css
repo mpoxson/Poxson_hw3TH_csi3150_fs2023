@@ -111,7 +111,7 @@ button:hover {
 .titleSand {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 25px;
   width: 50%;
 }
@@ -298,7 +298,7 @@ main p {
 }
 
 .caroCont img {
-  object-position: -400px 0px;
+  object-position: -300px 0px;
   height: 70vh;
 }
 
